@@ -24,7 +24,7 @@ ms.locfileid: "55079361"
 ---
 # <a name="create-a-static-html-web-app-in-azure"></a>Azure에서 정적 HTML 웹앱 만들기
 
-[Azure App Service](overview.md)는 확장성 높은 자체 패치 웹 호스팅 서비스를 제공합니다. 이 빠른 시작에서는 기본적인 HTML+CSS 사이트를 Azure App Service에 배포하는 방법을 보여줍니다. 여기에서는 [Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview)을 사용해서 빠른 시작을 실행하지만 [Azure CLI](/cli/azure/install-azure-cli)를 사용하여 여기에서 설명하는 명령들을 로컬에서도 실행할 수도 있습니다.
+[Azure App Service](overview.md)는 높은 확장성을 가졌으며 자체 수정도 가능한 웹 호스팅 서비스를 제공합니다. 이 빠른 시작에서는 기본적인 HTML+CSS 사이트를 Azure App Service에 배포하는 방법을 보여줍니다. 이 글에서는 [Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview)을 사용해서 빠른 시작을 실행하지만 [Azure CLI](/cli/azure/install-azure-cli)를 사용하여 여기에서 설명하는 명령들을 로컬에서도 실행할 수도 있습니다.
 
 ![샘플 앱의 홈 페이지](media/app-service-web-get-started-html/hello-world-in-browser-az.png)
 
@@ -92,7 +92,7 @@ az webapp up --location westeurope --name <app_name>
 
 브라우저에서 앱 URL(`http://<app_name>.azurewebsites.net`)로 이동합니다.
 
-이 페이지는 Azure App Service 웹앱으로 실행됩니다.
+이 페이지는 Azure App Service 웹앱에서 실행됩니다.
 
 ![샘플 앱 홈 페이지](media/app-service-web-get-started-html/hello-world-in-browser-az.png)
 
